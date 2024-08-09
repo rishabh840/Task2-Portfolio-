@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navigation::before{
+    content: "";
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    
+}
+.navigation{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    height: 60px;
+    box-shadow: 4px 2px 8px white;
+    z-index:1;
+    width: 100%;
+}
+.navigation .logo{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navigation .navinfo .items{
+    display: flex;
+    top: 5px;
+    right: 100px;
+}
+
+.navigation .navinfo .items li{
+    position: relative;
+    left: 800px;
+    list-style-type: none;
+    margin: 10px 5px;
+    padding: 8px 0px;
+    
+}
+.navigation .navinfo .items li a{
+    
+    margin: 10px 10px;
+    padding: 5px 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navigation .navinfo .items li a:hover{
+    color: blue;
+}
+
+/*Section Part*/
+
+section::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(35, 73, 176);
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+    z-index: -1;
+}
+section{
+    position: relative;
+    display: flex;
+    top: 50px;
+}
+section .container1{
+    position: relative;
+    top: 50px;
+    width: 800px;
+    height: 400px;
+    margin: 20px 40px;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section .container1 h1{
+    position: relative;
+    font-size: 38px;
+    top: 30px;
+    margin: 10px 3px;
+}
+section .container1 h2{
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+
+section .container1 .quality{
+    position: relative;
+    top: 30px;
+    color: cyan;
+}
+section .container1 p{
+    position: relative;
+    top: 50px;
+    margin: 0px 0px;
+    padding: 6px 0px;
+    font-size: 18px;
+    font-size: 20px;
+}
+section .container2 .imageme{
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    border: 4px solid white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/*Skills PART */
+.skills .skillcontainer{
+    position: relative;
+    width: 92%;
+    left: 45px;
+}
+
+.skills .skillcontainer .heading{
+    position: relative;
+    text-align: center;
+    top: 80px;
+    font-size: 50px;
+}
+.skills .skillcontainer .hard{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    margin: 80px 0px;
+    background-color: red;
+    color: white;
+    
+}
+.skills .skillcontainer .infoimg{
+    display: flex;
+    position:relative;
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin:40px 0px;
+    gap: 50px;
+}
+.skills .skillcontainer .infoimg img{
+    height: 120px;
+    width: 120px;
+    margin: 0px 20px;
+    padding: 10px 20px;   
+}
+.skills .skillcontainer .infoimg div{
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.562);
+}
+
+/*Project Section*/
+.projects::before{
+    content: "";
+    position: absolute;
+    background-color:rgb(29, 91, 103);
+    width: 96%;
+    height:190%;
+    top:1600px;
+    left:25px;
+    border-radius: 10px;
+    z-index: -1;
+}
+.projects .projectcontainer{
+    position: relative;
+    top: 120px;
+}
+
+.projects .projectcontainer .heading{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+}
+.projects .projectcontainer .infoimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:40px 0px;
+    gap: 50px;
+}
+.projects .projectcontainer .infoimg video{
+    height: 150px;
+    width: 320px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+.projects .projectcontainer .infoimg video:hover{
+    width:350px ;
+    
+}
+.projects .projectcontainer .infoimg div{
+    text-align: center;
+    border-radius: 10px;
+    height:400px;
+    width: 350px;
+    box-shadow: 4px 4px 4px white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(4, 4, 31);
+    border: 2px solid white;
+}
+.projects .projectcontainer .infoimg div h2{
+    color: rgb(198, 175, 175);
+    margin: 10px 0px;
+    padding-bottom: 10px;
+}
+.projects .projectcontainer .infoimg div p{
+    color: white;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+/*Footer*/
+
+.footer::before{
+    content: "";
+    position:absolute;
+    background-color: black;
+    top: 2675px;
+    height: 100%;
+    width: 96%;
+    z-index:-1;
+    left: 25px;
+    border-radius: 10px;
+    opacity: 0.85;
+}
+.footer .container{
+    position: relative;
+    top: 280px;
+    color: white;
+    gap: 150px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid white;
+    margin-right: 120px;
+}
+.footer .container h2{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: white;
+}
+.footer .footerlogo img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 900px;
+    top: 90px;
+    border-radius: 10px;
+}
+.footer .container p{
+    position: relative;
+    color: grey;
+    text-align: center;
+    top: 70px;
+}
+.footer .icons{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    top: 230px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.footer .icons a{
+    color: white;
+    cursor :pointer;
+}
+.footer .icons .insta:hover{
+    color: purple;
+    background-color: white;
+}
+.footer .icons .whatsapp:hover{
+    color: green;
+    background-color: white;
+}
+.footer .icons .linkedin:hover{
+    color: blue;
+    background-color: white;
+}
+.footer .icons .twitter:hover{
+    color: skyblue;
+    background-color: white;
+}
+.footer .icons .facebook:hover{
+    color:blue;
+    background-color: white;
+}
+.footer .copyright{
+    position: relative;
+    top: 270px;
+    color: grey;
+    text-align: center;
+}
